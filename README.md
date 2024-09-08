@@ -22,8 +22,8 @@ The application allows users to login and register, browse and purchase clothing
   - JWT
     
 ### Demo
-<img src="Demo1.gif" width="400" alt="Demo">
-<img src="Demo2.gif" width="400" alt="Demo">
+<img src="Demo1.gif" width="500" alt="Demo">   
+<img src="Demo2.gif" width="500" alt="Demo">
 
 ### Getting Started
 #### Prerequisites
