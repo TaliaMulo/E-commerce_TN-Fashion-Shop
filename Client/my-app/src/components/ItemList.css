@@ -1,0 +1,142 @@
+.item-list-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    display: flex;
+    gap: 2rem;
+}
+
+.item-list-container.shop-page {
+    background-color: #ffffff;
+}
+
+.filter-sidebar-list {
+    flex: 0 0 250px;
+}
+
+.item-list {
+    flex: 1;
+}
+
+.item-list h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #000000;
+    font-weight: 300;
+    font-family: 'Georgia', serif;
+}
+
+.items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+
+}
+
+.item-card-list {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: left;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+.item-card-list:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.item-card-list img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.item-card-list h3 {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 5px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.item-card-list p {
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Arial';
+    margin-left: 5px;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+.favorite-btn-list {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #e74c3c;
+    transition: transform 0.2s ease;
+    margin-top: -30px;
+}
+
+.favorite-btn-list:hover {
+    transform: scale(1.1);
+}
+
+.favorite-btn-list:focus {
+    outline: none;
+}
+
+.delete-item:hover {
+    background-color: #ff1900;
+    color: #ffffff;
+}
+
+.loading {
+    text-align: center;
+    padding: 40px;
+    font-size: 1.2em;
+    color: #6c757d;
+}
+
+@media (max-width: 768px) {
+    .item-list-container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .filter-sidebar-list {
+        flex: none;
+        width: 100%;
+    }
+
+    .item-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        font-family: 'Lobster', cursive;
+    }
+
+    .item-list h2 {
+        font-size: 2rem;
+    }
+}
+
+.image-container {
+    position: relative;
+}
+
+.out-of-stock-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}

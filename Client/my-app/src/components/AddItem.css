@@ -1,0 +1,143 @@
+.add-item-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.add-item-container h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.add-item-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-item-container input {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.add-item-container button:active {
+    transform: scale(0.98);
+}
+
+.add-item-container input:focus {
+    outline: none;
+    border-color: #000000;
+}
+
+.size-and-stock-add {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.size-and-stock-add h3 {
+    text-align: left;
+    color: #000;
+}
+
+.size-and-stock-add button {
+    width: 120px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.size-stock-input-add {
+    display: flex;
+    gap: 15px;
+}
+
+.size-stock-input-add input {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.size-stock-input-add button {
+    width: 100px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+
+
+.size-stock-input-add button:hover {
+    background-color: #00000000;
+}
+
+.size-stock-input-add button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.size-stock-input-add img {
+    width: 35px;
+    height: 35px;
+    margin-left: 30px;
+    transition: transform 0.3s ease;
+}
+
+.add-size-button:hover {
+    background-color: #e0e0e0;
+}
+
+.submit-button {
+    padding: 12px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.submit-button:hover {
+    background-color: #27ae60;
+}
+
+.error {
+    color: #e74c3c;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fadbd8;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .add-item-container {
+        max-width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+}

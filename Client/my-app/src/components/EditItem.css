@@ -1,0 +1,124 @@
+.edit-item-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.edit-item-container h2 {
+    text-align: center;
+    color: #000;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.edit-item-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-item-container input {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.edit-item-container input:focus {
+    outline: none;
+    border-color: #000000;
+}
+
+
+.size-and-stock-edit {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.size-and-stock-edit h3 {
+    text-align: left;
+    color: #000;
+}
+
+.size-and-stock-edit button {
+    width: 120px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.size-stock-input-edit {
+    display: flex;
+    gap: 15px;
+}
+
+.size-stock-input-edit input {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.size-stock-input-edit img {
+    width: 35px;
+    height: 35px;
+    margin-left: 30px;
+    transition: transform 0.3s ease;
+}
+
+.size-stock-input-edit button {
+    width: 100px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.update-button {
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.update-button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: #dc3545;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .edit-item-container {
+        max-width: 90%;
+        padding: 15px;
+    }
+}
